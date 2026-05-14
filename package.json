@@ -41,6 +41,11 @@
     "vitest": "^4.1.6"
   },
   "overrides": {
-    "protobufjs": "^7.5.5"
+    "protobufjs": "^7.5.5",
+    "eslint": { "minimatch": "^3.1.4" },
+    "@eslint/eslintrc": { "minimatch": "^3.1.4" },
+    "@humanwhocodes/config-array": { "minimatch": "^3.1.4" },
+    "glob": { "minimatch": "^3.1.4" },
+    "minimatch": "^9.0.7"
   }
 }
